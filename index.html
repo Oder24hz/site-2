@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oder24hz - Персональный сайт</title>
+  <style>
+    @font-face {
+      font-family: 'Ebbe';
+      src: url('ebbe.ttf') format('truetype');
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      min-height: 100vh;
+      font-family: 'Ebbe', sans-serif;
+      overflow-x: hidden;
+      overflow-y: auto;
+      color: #ff4d4d;
+      background: linear-gradient(-45deg, #0d0000, #330000, #550000, #0d0000);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    }
+
+    @keyframes gradient {
+      0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.85);
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 12px;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    h2 {
+      font-weight: normal;
+      font-size: 1.5rem;
+    }
+
+    .info, .bio, .personalities, .socials {
+      margin-top: 30px;
+      font-size: 1.1rem;
+    }
+
+    .bio {
+      font-size: 1rem;
+      text-align: left;
+      line-height: 1.6;
+    }
+
+    .socials a {
+      display: inline-block;
+      margin: 10px 5px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #ff4d4d;
+    }
+
+    .socials a:hover {
+      text-decoration: underline;
+    }
+
+    .pulse-text {
+      display: inline-block;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        text-shadow: 0 0 2px red;
+      }
+      50% {
+        text-shadow: 0 0 5px red;
+      }
+    }
+
+    
+    .socials .pulse-text {
+      animation: pulse-fast 1s infinite;
+    }
+
+    @keyframes pulse-fast {
+      0%, 100% {
+        text-shadow: 0 0 2px red;
+      }
+      50% {
+        text-shadow: 0 0 5px red;
+      }
+    }
+
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+      .container {
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.85);
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop hidden>
+    <source src="real slideshow audio - real.......mp3" type="audio/mpeg" />
+  </audio>
+
+  <div class="container">
+    <h1><span class="pulse-text">♱ Oder24hz ♱</span></h1>
+    <h2><span class="pulse-text">♱ Просто милый парень из России ♱</span></h2>
+
+    <div class="info">
+      <p><span class="pulse-text">♱ Возраст: 17 ♱</span></p>
+      <p><span class="pulse-text">♱ Местоположение: Россия ♱</span></p>
+    </div>
+
+    <div class="bio">
+      <p>Я молодой парень, живу в России. Увлекаюсь машинами и компьютерами, стараюсь копить на машину и права. У меня проблемы с головой — есть три диагноза из психушки. Но на самом деле я добрый, просто мои беды в голове.</p>
+      <p>Многим я делал плохо, многим помогал. Из-за этого я не могу считать себя ни добрым, ни злым — это делает за меня общество. Люди говорят, что я уродец, что я жирный и сильно ранимый, без чувств. Я не понимаю людей.</p>
+      <p><strong>Из плюсов:</strong> я спас четырёх человек от самовыпила, вернул многим чувства к партнёру, помог людям с их внутренними проблемами.</p>
+      <p><strong>Из минусов:</strong> меня многие не понимают, я всё принимаю близко к сердцу. Есть проблемы со здоровьем — с сердцем и лёгкими. В любой момент могу словить инсульт (к счастью, ещё такого не было).</p>
+      <p><strong>Забавный факт:</strong> мне 17 лет, я 196 см ростом и вешу 120 кг (да, я жирный). Мечтаю накопить на машину и работать в такси. :)</p>
+    </div>
+
+    <div class="personalities">
+      <p><span class="pulse-text">♱ #милый парень   |   Endless Night   |   Oder24hz ♱</span></p>
+    </div>
+
+    <div class="socials">
+      <a class="pulse-text" href="https://www.twitch.tv/oder24hz" target="_blank">♱ Twitch ♱</a>
+      <a class="pulse-text" href="https://www.youtube.com/@Oder24hz" target="_blank">♱ YouTube ♱</a>
+      <a class="pulse-text" href="https://t.me/Oderrrr" target="_blank">♱ Telegram ♱</a>
+      <a class="pulse-text" href="https://www.tiktok.com/@2011.o" target="_blank">♱ TikTok ♱</a>
+    </div>
+  </div>
+</body>
+</html>
